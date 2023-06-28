@@ -1,0 +1,58 @@
+#project-section {
+    width:100vw;
+    height: fit-content;
+    background-color: rgb(218, 211, 211);
+    margin: 0;
+    padding-top: 8vh;
+}
+
+#project-section h2 {
+    padding-left: 2vw;
+    font-size: 2.5rem;
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.project-block {
+    padding: 10vh 10vw;
+    width: 30vw;
+    word-wrap: break-word;
+    font-size: 1rem;
+}
+
+.project-button {
+    cursor:pointer;
+    width: 35vw;
+    height: 40vh;
+    background-color:white;
+    border-radius: 2%;
+    border: none;
+}
+
+#Garbage {
+    background-image: url("../../docs/garbage_classifier.jpg");
+    background-size: cover;
+}
+
+#Flight {
+    background-image: url("../../docs/flight_application.jpg");
+    background-size: cover;
+}
+
+#Racial {
+    background-image: url("../../docs/racial_justice.jpg");
+    background-size: cover;
+}
+
+#Sharded {
+    background-image: url("../../docs/kv_store.jpg");
+    background-size: cover;
+}
+
+.project-modal {
+    align-self: center;
+}

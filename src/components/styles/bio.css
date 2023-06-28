@@ -1,0 +1,35 @@
+#bio {
+    width:100vw;
+    height: fit-content;
+    background-color: rgb(218, 211, 211);
+    margin: 0;
+    padding-top: 8vh;
+}
+
+#bio h2 {
+    font-size: 2.5rem;
+    padding-left: 2vw;
+}
+
+#bio-content {
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#bio-para {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
+#bio-pic {
+    padding-right: 2vw;
+    
+}
+#profile-pic {
+    border: 1px solid rgb(74, 120, 74);
+    border-radius: 50%;
+    padding: 5px;
+}

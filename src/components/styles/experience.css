@@ -1,0 +1,47 @@
+#experience {
+    width:100vw;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 8vh;
+}
+
+#experience h2 {
+    padding-left: 2vw;
+    font-size: 2.5rem;
+}
+
+#experiences {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.experience-button {
+    cursor: pointer;
+    width: 30vw;
+    height: 15vh;
+    font-size: 1rem;
+    background-color:white;
+    border-radius: 2%;
+    border: none;
+    margin: 5vh 5vw;
+}
+
+#Perasia {
+    background-image: url("../../docs/perasia_logo.png");
+    background-size: 100%;
+}
+
+#Siemens {
+    background-image: url("../../docs/siemens_logo.png");
+    background-size: 100%;
+}
+.company-pic {  
+    width: 30vw;
+    height: 10vh;
+}
+
+.experience-modal {
+    align-self: center;
+}

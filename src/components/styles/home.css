@@ -1,0 +1,26 @@
+/* #home-page{
+    position: relative;
+} */
+#home-page{
+    width:100vw;
+    height: 100vh;
+    background-image: url("../../docs/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#home-page h1{
+    font-size: 3rem;
+    opacity: 1;
+    color: rgb(0, 215, 253);
+}
+

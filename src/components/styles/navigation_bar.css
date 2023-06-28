@@ -1,0 +1,44 @@
+#nav {
+    /* position: -webkit-sticky; */
+    position: fixed;
+    font-size: 1rem;
+    top: 0;
+    padding: 0.5vh 0.5vw;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.4s;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#nav .scrolled {
+    background-color: rgb(14, 14, 14);
+    opacity: 0.6;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    color:rgb(0, 0, 0);
+}
+  
+#navbar li {
+    cursor: pointer;
+}
+
+#navbar li:hover {
+    color:rgb(142, 138, 153);
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+#navbar a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
