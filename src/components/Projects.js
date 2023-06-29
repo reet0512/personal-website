@@ -21,32 +21,6 @@ const projectDesc = {
 
 export default function Projects() {
     function ProjectBlock({projName}) {
-        // const [modalOpen, setModalOpen] = useState(false);
-        // const toggle = () => setModalOpen(!modalOpen);
-        // const closeBtn = (
-        //     <button className="close" onClick={toggle} type="button">
-        //       &times;
-        //     </button>
-        // );
-        // return (
-        //     <div className="project-block">
-        //         <button onClick={toggle} className="project-button" id={projName.split(" ")[0]}>
-        //             {/* <img className="company-pic" src={imgLink} alt={companyName + " logo"} /> */}
-        //         </button>
-        //         <Modal
-        //             isOpen={modalOpen}
-        //             toggle={toggle}
-        //             //onClose={toggle}
-        //             // contentLabel="Perasia"
-        //             className="project-modal">
-        //                 <ModalHeader toggle={toggle} close={closeBtn}>{projName}</ModalHeader>
-        //                 <ModalBody>{projectDesc[projName]["desc"]}</ModalBody>
-        //                 <ModalFooter>
-        //                     <button onClick={toggle}>Close</button>
-        //                 </ModalFooter>
-        //         </Modal>
-        //     </div>
-        // )
         return (
             <div className="project-block">
                 <a href={projectDesc[projName]["link"]} target="_blank">
@@ -55,18 +29,6 @@ export default function Projects() {
                     </button>
                 </a>
                 <h3 className="project-title">{projName}</h3>
-                {/* <Modal
-                    isOpen={modalOpen}
-                    toggle={toggle}
-                    //onClose={toggle}
-                    // contentLabel="Perasia"
-                    className="project-modal">
-                        <ModalHeader toggle={toggle} close={closeBtn}>{projName}</ModalHeader>
-                        <ModalBody>{projectDesc[projName]["desc"]}</ModalBody>
-                        <ModalFooter>
-                            <button onClick={toggle}>Close</button>
-                        </ModalFooter>
-                </Modal> */}
             </div>
         )
     }

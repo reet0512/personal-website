@@ -2,8 +2,8 @@ import "./styles/experience.css";
 import PerasiaLogo from "../docs/perasia_logo.png";
 import SiemensLogo from "../docs/siemens_logo.png";
 import { useState } from "react";
-import {Modal} from "react-modal";
-import {ModalHeader, ModalBody, ModalFooter} from "reactstrap";
+import {Modal, ModalHeader, ModalBody, ModalFooter} from "reactstrap";
+
 
 const companyDesc = {
     "Perasia Technologies LLC": {
@@ -21,30 +21,31 @@ const companyDesc = {
 export default function Experience() {
     function ExperienceBlock({companyName, imgLink}) {
         const [modalOpen, setModalOpen] = useState(false);
-        const toggle = () => setModalOpen(!modalOpen);
+        const toggleModal = () => {
+            setModalOpen(!modalOpen);
+        }
         const closeBtn = (
-            <button className="close" onClick={toggle} type="button">
+            <button className="close-btn" onClick={toggleModal} type="button">
               &times;
             </button>
         );
         return (
-            <button onClick={toggle} className="experience-button" id={companyName.split(" ")[0]}>
-                
+            <div>
+                <button onClick={toggleModal} className="experience-button" id={companyName.split(" ")[0]}>
                     {/* <img className="company-pic" src={imgLink} alt={companyName + " logo"} /> */}
-                {/* <ReactModal
+                </button>
+                <Modal
                     isOpen={modalOpen}
-                    onRequestClose={toggle}
-                    contentLabel="Example"
-                    //onClose={toggle}
-                    // contentLabel="Perasia"
-                    className="experience-modal">
-                        {/* <ModalHeader toggle={toggle} close={closeBtn}>{companyName}</ModalHeader>
+                    toggle={toggleModal}
+                    // fade={false}
+                    className="overlay">
+                        <ModalHeader className="modal-header">
+                            {companyName}
+                            {/* {closeBtn} */}
+                        </ModalHeader>
                         <ModalBody>{companyDesc[companyName]["desc"]}</ModalBody>
-                        <ModalFooter>
-                            <button onClick={toggle}>Close</button>
-                        </ModalFooter> */}
-                {/* </ReactModal> */} */}
-            </button>
+                </Modal>
+            </div>
         )
     }
     return (
