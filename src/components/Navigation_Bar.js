@@ -1,100 +1,52 @@
 import Resume from "../docs/Reet_Resume.pdf";
 import "./styles/navigation_bar.css";
 import {Link} from "react-scroll";
-import {useEffect, useState} from "react";
-import {Nav, NavItem, NavLink} from "reactstrap"; 
-import LinkedInPic from "../docs/linkedin.png"
 
 export default function Navigation_Bar() {
-    // const [navbarColor, setNavbarColor] = useState("navbar-transparent");
-    // useEffect(() => {
-    //     const updateNavbarColor = () => {
-    //         if (
-    //             document.documentElement.scrollTop > 399 ||
-    //             document.body.scrollTop > 399
-    //         ) {
-    //             setNavbarColor("");
-    //         } else if (
-    //             document.documentElement.scrollTop < 400 ||
-    //             document.body.scrollTop < 400
-    //         ) {
-    //             setNavbarColor("navbar-transparent");
-    //         }
-    //     };
-    //     window.addEventListener("scroll", updateNavbarColor);
-    //     return function cleanup() {
-    //         window.removeEventListener("scroll", updateNavbarColor);
-    //     };
-    // });
-    // useEffect(() => {
-    //     let navElement = document.getElementById("nav");
-    //     const updateNavColor = () => {
-    //         if(window.scrollY > 0) {
-    //             navElement.classList.add('scrolled');
-    //         } else {
-    //             navElement.classList.remove('scrolled');
-    //         }
-    //     };
-    //     window.addEventListener("scroll", updateNavColor);
-    // });
     return(
-        <header id="nav">
-            {/* <Nav
-            tabs
-            id="navbar"
-            >
-                <NavItem>
-                    <NavLink active href="home-page">
-                        Home
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink active href="#bio">
-                        About Me
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink active href="#experience">
-                        Experience
-                    </NavLink>
-                </NavItem>
-            </Nav> */}
-            <nav>
-                <ul id="navbar">
-                    <li>
-                        <Link activeClass="active" smooth spy to="home-page">
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link activeClass="active" smooth spy to="bio">
-                            About Me
-                        </Link>
-                    </li>
-                    <li>
-                        <Link activeClass="active" smooth spy to="experience">
-                            Experiences
-                        </Link>
-                    </li>
-                    <li>
-                        <Link activeClass="active" smooth spy to="project-section">
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <a href={Resume} target="_blank">Resume</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/reet-yk/" target="_blank">
-                             LinkedIn
-                        </a>
-                    </li>
-                    <li>
-                    <a href="https://github.com/reet0512/" target="_blank">Github</a>
-                    </li>
-                </ul>
+        <section id="navigation-section">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a id="personal-name" class="navbar-brand" href="#">REET KOTHARI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-link">
+                                <Link className="navbar-links" activeClass="active" spy to="home-page">
+                                    HOME
+                                </Link>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <Link className="navbar-links" activeClass="active" spy to="bio-section">
+                                    ABOUT ME
+                                </Link>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <Link className="navbar-links" activeClass="active" spy to="experience-section">
+                                    EXPERIENCES
+                                </Link>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <Link className="navbar-links" activeClass="active" spy to="project-section">
+                                    PROJECTS
+                                </Link>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <a className="navbar-links" href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <a className="navbar-links" href="https://www.linkedin.com/in/reet-yk/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            </li>
+                            <li class="nav-item nav-link">
+                                <a className="navbar-links" href="https://github.com/reet0512" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-lg"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </header>
-    )
+        </section>
+    );
 }
 

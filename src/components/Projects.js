@@ -1,8 +1,5 @@
-import {Modal, ModalHeader, ModalBody, ModalFooter} from "reactstrap";
-import { useState } from "react";
 import "./styles/projects.css";
-// import RacialJusticePic from "../docs/racial_justice.jpg";
-// import KVStorePic from "../docs/kv_store.jpg";
+import garbagePic from "../docs/garbage_classifier.jpg";
 
 const projectDesc = {
     "Garbage Classifier": {
@@ -23,9 +20,9 @@ export default function Projects() {
     function ProjectBlock({projName}) {
         return (
             <div className="project-block">
-                <a href={projectDesc[projName]["link"]} target="_blank">
+                <a href={projectDesc[projName]["link"]} target="_blank" rel="noopener noreferrer">
                     <button className="project-button" id={projName.split(" ")[0]}>
-                        {/* <img className="company-pic" src={imgLink} alt={companyName + " logo"} /> */}
+                        {/* <img className="object-fit-fill" src={garbagePic} /> */}
                     </button>
                 </a>
                 <h3 className="project-title">{projName}</h3>

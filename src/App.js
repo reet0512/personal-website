@@ -8,12 +8,18 @@ import Experience from "./components/Experience.js";
 export default function App() {
     return(
         <>
-            <Navigation_Bar />
-            <Home />
-            <Bio />
-            <Experience />
-            <Projects />
-            <Footer />
+            <header>
+                <Navigation_Bar />
+            </header>
+            <main>
+                <Home />
+                <Bio />
+                <Experience />
+                <Projects />
+            </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     )
 }

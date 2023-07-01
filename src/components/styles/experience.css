@@ -1,4 +1,4 @@
-#experience {
+#experience-section {
     width:100vw;
     height: fit-content;
     background-color: rgb(255, 255, 255);
@@ -6,27 +6,28 @@
     padding-top: 8vh;
 }
 
-#experience h2 {
+#experience-section h2 {
     padding-left: 2vw;
+    font-weight: bold;
     font-size: 2.5rem;
+    text-decoration:underline;
 }
 
 #experiences {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .experience-button {
+    flex: 50%;
     cursor: pointer;
     width: 30vw;
     height: 15vh;
-    font-size: 1rem;
-    background-color:white;
+    background-color:transparent;
     border-radius: 2%;
     border: none;
     margin: 5vh 5vw;
-    padding-bottom: 5vh;
 }
 
 #Perasia {
@@ -43,113 +44,31 @@
     background-repeat: no-repeat;
 }
 
-/* .experience-modal ::content {
-    position: absolute;
-    z-index: 999;
-    top: '40px';
-    left: '40px';
-    right: '40px';
-    bottom: '40px';
-    border: '1px solid #ccc';
-    background: '';
-    overflow: 'auto';
-    WebkitOverflowScrolling: 'touch';
-    borderRadius: '4px';
-    outline: 'none';
-    padding: '20px';
-    } */
-
-/* .experience-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(189, 125, 125);
-    padding: 1rem 1.5rem;
-    width: 40vw;
-    border-radius: 0.5rem;
-    border-style: solid;
-    border:black;
-} */
-/*
-.modal-header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+#University {
+    background-image: url("../../docs/uw_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.closebtn {
-    justify-self:center;
-    float: right;
-    width: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: lightgray;
-} */
-/* 
-.custom-modal {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: fixed;
-    align-items: center;
-    justify-content: center;
-    animation: popOutModal 0.3s forwards;
-    opacity: 0;
-    transform: scale(0.8);
-  }
+.modal-header h3{
+    font-weight: bolder;
+}
 
-  @keyframes popOutModal {
-    from {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  
-  .custom-modal .modal-content {
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .custom-modal .modal-header {
-    background-color: #f5f5f5;
-    border-bottom: none;
-  }
-  
-  .custom-modal .modal-header h5 {
+.modal-header p {
+    padding: 0;
     margin: 0;
-  }
-  
-  .custom-modal .modal-body {
-    padding: 20px;
-  }
-  
-  .custom-modal .modal-footer {
-    background-color: #f5f5f5;
-    border-top: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-  }
-  
-  .custom-modal .modal-footer button {
-    margin-left: 10px;
-  } */
-  
-.overlay {
-    position: fixed; /* Sit on top of the page content */
-    width: 30vw; /* Full width (cover the whole page) */
-    height: 10vh; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
+    font-size: small;
+    font-style: italic;
+}
+
+.close-btn {
+    font-size: 2rem;
+    background-color: transparent;
+    border:none;
+    opacity: 0.5;
+}
+
+.close-btn:hover {
+    opacity: 1;
+}

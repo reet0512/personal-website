@@ -1,7 +1,8 @@
 #project-section {
     width:100vw;
     height: fit-content;
-    background-color: rgb(218, 211, 211);
+    background-color: rgb(161, 150, 84);
+    /* background-color: rgb(232, 211, 74); */
     margin: 0;
     padding-top: 8vh;
 }
@@ -9,6 +10,8 @@
 #project-section h2 {
     padding-left: 2vw;
     font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration:underline;
 }
 
 #projects {
@@ -18,10 +21,14 @@
 }
 
 .project-block {
-    padding: 10vh 10vw;
+    flex: 50%;
+    padding: 8vh 8vw;
     width: 30vw;
     word-wrap: break-word;
-    font-size: 1rem;
+}
+
+.project-block h3 {
+    font-weight: bold;
 }
 
 .project-button {
@@ -29,21 +36,22 @@
     width: 35vw;
     height: 35vh;
     background-color: transparent;
-    border-radius: 2%;
+    border-radius: 2.5%;
     border: none;
 }
 
 #Garbage {
     background-image: url("../../docs/garbage_classifier.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-repeat: no-repeat; */
 }
 
 #Flight {
     background-image: url("../../docs/flight_application.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: bottom; */
 }
 
 #Racial {
@@ -60,4 +68,10 @@
 
 .project-modal {
     align-self: center;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:monaco,Consolas,Lucida Console,monospace;
 }

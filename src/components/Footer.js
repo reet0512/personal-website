@@ -2,10 +2,10 @@ import "./styles/footer.css"
 
 export default function Footer() {
     return(
-        <footer className="footer-content">
+        <section className="footer-section">
             <div id="copyright">
                 © {new Date().getFullYear()}, by Reet Kothari
             </div>
-        </footer>
+        </section>
     )
 }
