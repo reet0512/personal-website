@@ -6,7 +6,7 @@
     margin: 0;
     padding-top: 8vh;
     padding-bottom: 6vh;
-    overflow-x:hidden;
+    overflow:hidden;
 }
 
 #bio-section h2 {
@@ -26,7 +26,7 @@
 
 #bio-para {
     padding-left: 2vw;
-    width: 65%;
+    width: 65vw;
     font-size: 1.25rem;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-weight: 300;
@@ -39,16 +39,16 @@
 }
 
 #bio-pic {
-    padding-right: 2vw;
-    
-}
-#profile-pic {
-    justify-self: start;
     width: 280px;
     height: 320px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5%;
-    padding: 5px;
+    background-image: url("../../docs/profile_pic.jpg");
+    background-size: cover;
+    margin-right: 5vw;
+}
+#profile-pic {
+    size: 0;
 }
 
 #icon-info {

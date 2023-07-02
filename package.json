@@ -1,13 +1,14 @@
 {
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "bootstrap": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.9",
-    "reactstrap": "^9.2.0"
+    "reactstrap": "^9.2.0",
+    "recharts": "^2.7.2",
+    "victory": "^36.6.11"
   },
   "main": "/src/index.js",
   "scripts": {

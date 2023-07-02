@@ -1,0 +1,30 @@
+#gallery-section {
+    width:100vw;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(232, 211, 74); */
+    margin: 0;
+    padding-top: 8vh;
+    overflow:hidden;
+}
+
+#gallery-section h2 {
+    padding-left: 2vw;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+#gallery-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.carousel-images {
+    width: fit-content;
+    height: 75vh;
+    border-style: solid;
+    
+}
