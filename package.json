@@ -6,12 +6,12 @@
     "react-modal": "^3.16.1",
     "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.9",
-    "reactstrap": "^9.2.0",
-    "recharts": "^2.7.2",
-    "victory": "^36.6.11"
+    "reactstrap": "^9.2.0"
   },
   "main": "/src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,7 +31,11 @@
   },
   "name": "personal-website",
   "version": "1.0.0",
+  "homepage": "https://reet0512.github.io/personal-website",
   "description": "Personal Website",
   "author": "Reet Kothari",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
