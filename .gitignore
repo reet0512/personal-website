@@ -4,3 +4,6 @@ npm-debug.log
 /*.env
 src/.DS_Store
 src/docs/.DS_Store
+src/.Rhistory
+.DS_Store
+.DS_Store
