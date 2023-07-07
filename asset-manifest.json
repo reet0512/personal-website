@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.903762c6.css",
-    "main.js": "/static/js/main.5ed6680e.js",
+    "main.css": "/static/css/main.1f3e52fe.css",
+    "main.js": "/static/js/main.0673b478.js",
     "static/media/spaceapps_pic.jpg": "/static/media/spaceapps_pic.bc27ac5ebb708dcbe492.jpg",
     "static/media/guitar.jpg": "/static/media/guitar.f895cbb845f9a58740e2.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.8ac46805b6fc880bbc9c.jpg",
@@ -16,12 +16,13 @@
     "static/media/perasia_logo.png": "/static/media/perasia_logo.4645e5bb3abd6938ede6.png",
     "static/media/dreamscope_pic.jpg": "/static/media/dreamscope_pic.2f0adea8140cb6e05bd9.jpg",
     "static/media/siemens_logo.png": "/static/media/siemens_logo.b544a22750cca9527edd.png",
+    "static/media/Reet_logo.png": "/static/media/Reet_logo.f90f0fcb947eaee7e854.png",
     "index.html": "/index.html",
-    "main.903762c6.css.map": "/static/css/main.903762c6.css.map",
-    "main.5ed6680e.js.map": "/static/js/main.5ed6680e.js.map"
+    "main.1f3e52fe.css.map": "/static/css/main.1f3e52fe.css.map",
+    "main.0673b478.js.map": "/static/js/main.0673b478.js.map"
   },
   "entrypoints": [
-    "static/css/main.903762c6.css",
-    "static/js/main.5ed6680e.js"
+    "static/css/main.1f3e52fe.css",
+    "static/js/main.0673b478.js"
   ]
 }
