@@ -30,6 +30,10 @@
     margin: 5vh 5vw;
 }
 
+.experience-button:hover {
+    background-color: rgb(236, 230, 188);
+}
+
 #Perasia {
     background-image: url("../../docs/perasia_logo.png");
     background-position: center;
