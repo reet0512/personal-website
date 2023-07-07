@@ -23,8 +23,8 @@
 }
 
 .carousel-images {
-    width: fit-content;
-    height: 75vh;
+    max-width: 80vw;
+    height: 60vh;
     border-style: solid;
     
 }

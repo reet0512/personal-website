@@ -1,6 +1,6 @@
-import Resume from "../docs/Reet_Resume.pdf";
-import "./styles/navigation_bar.css";
-import {Link} from "react-scroll";
+import Resume from "../docs/Reet_Resume.pdf"
+import "./styles/navigation_bar.css"
+import {Link} from "react-scroll"
 
 export default function Navigation_Bar() {
     return(
@@ -49,6 +49,6 @@ export default function Navigation_Bar() {
                 </div>
             </nav>
         </section>
-    );
+    )
 }
 

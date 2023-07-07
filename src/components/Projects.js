@@ -1,5 +1,5 @@
-import "./styles/projects.css";
-import garbagePic from "../docs/garbage_classifier.jpg";
+import "./styles/projects.css"
+import garbagePic from "../docs/garbage_classifier.jpg"
 
 const projectDesc = {
     "Garbage Classifier": {

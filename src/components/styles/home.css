@@ -21,9 +21,9 @@
 #home-page h1{
     font-size: 1.8rem;
     font-weight: bolder;
-    font-family: cursive;
+    font-family: American Typewriter, serif;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     opacity: 1;
-    color: rgb(203, 209, 22);
+    color: rgb(204, 211, 14);
 }
 

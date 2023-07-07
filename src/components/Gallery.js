@@ -105,31 +105,6 @@ export default function Gallery() {
                         />
                     </Carousel>
                 </div>
-                {/* <BarChart
-                    layout="vertical"
-                    width={500}
-                    height={400}
-                    data={data}
-                    margin={{
-                        top: 20,
-                        right: 20,
-                        bottom: 20,
-                        left: 20,
-                      }}
-                >
-                    <XAxis type="category"/>
-                    <YAxis dataKey="name" type="category" />
-                    <Tooltip />
-                    <Bar dataKey="Profficiency" barSize={40} fill="#413ea0" />
-                </BarChart> */}
-                {/* <VictoryChart domainPadding={20}>
-                    <VictoryBar horizontal
-                    data={data}
-                    labels={({ datum }) => datum.y}
-                    x="name"
-                    y="Profficiency"
-                    />
-                </VictoryChart> */}
         </section>
     )
 }
