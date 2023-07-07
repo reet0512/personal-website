@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5155c4d2.css",
-    "main.js": "/static/js/main.baaa916b.js",
+    "main.js": "/static/js/main.5ed6680e.js",
     "static/media/spaceapps_pic.jpg": "/static/media/spaceapps_pic.bc27ac5ebb708dcbe492.jpg",
     "static/media/guitar.jpg": "/static/media/guitar.f895cbb845f9a58740e2.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.8ac46805b6fc880bbc9c.jpg",
@@ -18,10 +18,10 @@
     "static/media/siemens_logo.png": "/static/media/siemens_logo.b544a22750cca9527edd.png",
     "index.html": "/index.html",
     "main.5155c4d2.css.map": "/static/css/main.5155c4d2.css.map",
-    "main.baaa916b.js.map": "/static/js/main.baaa916b.js.map"
+    "main.5ed6680e.js.map": "/static/js/main.5ed6680e.js.map"
   },
   "entrypoints": [
     "static/css/main.5155c4d2.css",
-    "static/js/main.baaa916b.js"
+    "static/js/main.5ed6680e.js"
   ]
 }
