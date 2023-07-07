@@ -9,7 +9,7 @@ export default function Bio() {
                     <p>
                         Hello! I'm Reet and I am an international student from India pursuing a Bachelors degree in Computer Science at the University of Washington - Seattle. 
                         I have a strong interest in Data Science, Software Development, Data Analytics, Embedded Systems, and Distributed Systems. 
-                        I am fluent in English, Hindia, and Marwari. During my free time, I enjoy playing chess, guitar, video games, and squash. 
+                        I am fluent in English, Hindi, and Marwari. During my free time, I enjoy playing chess, guitar, video games, and squash. 
                         Things I love:
                     </p>
                     <div id="icon-info">
