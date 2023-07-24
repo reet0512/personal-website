@@ -36,8 +36,13 @@
     width: 35vw;
     height: 35vh;
     background-color: transparent;
-    border-radius: 2.5%;
+    border-radius: 5px;
     border: none;
+}
+
+#Code {
+    background-image: url("../../docs/code_racer.jpg");
+    background-size: cover;
 }
 
 #Garbage {
@@ -45,6 +50,11 @@
     background-size: cover;
     background-position: bottom;
     /* background-repeat: no-repeat; */
+}
+
+#Sudoku {
+    background-image: url("../../docs/sudoku_universe.jpg");
+    background-size: cover;
 }
 
 #Flight {
@@ -74,4 +84,11 @@
     text-align: center;
     font-size: 1.5rem;
     font-family:monaco,Consolas,Lucida Console,monospace;
+}
+
+.project-libraries {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:monaco,Consolas,Lucida Console,monospace;
+    font-style: italic;
 }

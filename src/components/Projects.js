@@ -2,17 +2,29 @@ import "./styles/projects.css"
 import garbagePic from "../docs/garbage_classifier.jpg"
 
 const projectDesc = {
+    "Code Racer": {
+        "libraries": "MongoDB, Express, Socket.io, React",
+        "link": "https://github.com/reet0512/CodeRacer"
+    },
     "Garbage Classifier": {
+        "libraries": "Pytorch",
         "link": "https://github.com/reet0512/GarbageClassifier"
     },
+    "Sudoku Universe": {
+        "libraries": "REST API, MongoDB, Express, Express-Layouts",
+        "link": "https://github.com/reet0512/Sudoku"
+    },
     "Flight Reservation Application (CSE 344 - link to spec)": {
+        "libraries": "AzureSQL, JDBC",
         "link": "https://docs.google.com/document/d/1_D1WWpJfuOJMIxU9X1X3IU8vCK0Kk4iWgRxdmfE1TTk/edit"
     },
     "Racial Justice": {
+        "libraries": "Shiny.R, Dplyr, ggplot, plotly",
         "link": "https://reet0512.shinyapps.io/Racial-Justice/"
     },
     "Sharded Linearizable KV Store (CSE 452 - link to spec)": {
-        "link": "https://gitlab.cs.washington.edu/cse452-23sp/dslabs/dslabs-handout/-/tree/c73c5c85f9f45e62dc55bc17ea17ff15cd927a70"
+        "libraries": "Java",
+        "link": "https://github.com/emichael/dslabs"
     }
 }
 
@@ -26,6 +38,7 @@ export default function Projects() {
                     </button>
                 </a>
                 <h3 className="project-title">{projName}</h3>
+                <h5 className="project-libraries">{projectDesc[projName]["libraries"]}</h5>
             </div>
         )
     }
@@ -33,9 +46,11 @@ export default function Projects() {
         <section id="project-section">
             <h2>Projects</h2>
             <div id="projects">
+                <ProjectBlock projName={"Code Racer"}/>
                 <ProjectBlock projName={"Garbage Classifier"}/>
-                <ProjectBlock projName={"Flight Reservation Application (CSE 344 - link to spec)"}/>
+                <ProjectBlock projName={"Sudoku Universe"}/>
                 <ProjectBlock projName={"Racial Justice"}/>
+                <ProjectBlock projName={"Flight Reservation Application (CSE 344 - link to spec)"}/>
                 <ProjectBlock projName={"Sharded Linearizable KV Store (CSE 452 - link to spec)"}/>
             </div>
         </section>

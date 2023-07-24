@@ -15,7 +15,7 @@ export default function Bio() {
                     <div id="icon-info">
                         <i className="fa-solid fa-headphones fa-xl icons"></i> {' '} Genre: Rock Music
                         <br/>
-                        <i className="fa-solid fa-chess-pawn fa-xl icons"></i> {' '} Chess.com Blitz: 1424
+                        <i className="fa-solid fa-chess-pawn fa-xl icons"></i> {' '} Chess.com Rapid: 1430
                         <br/>
                         <i className="fa-solid fa-gamepad fa-xl icons"></i> {' '} Video Games: Rocket League, Fortnite, CS:GO
                         <br/>

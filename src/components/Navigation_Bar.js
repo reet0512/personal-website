@@ -1,5 +1,4 @@
-import Resume from "../docs/Reet_Resume.pdf"
-import Logo from "../docs/Reet_logo.png"
+import Resume from "../docs/Reet_Kothari_Resume.pdf"
 import "./styles/navigation_bar.css"
 import {Link} from "react-scroll"
 
