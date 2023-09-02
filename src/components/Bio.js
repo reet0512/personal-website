@@ -8,7 +8,7 @@ export default function Bio() {
                 <div id = "bio-para">
                     <p>
                         Hello! I'm Reet and I am an international student from India pursuing a Bachelors degree in Computer Science at the University of Washington - Seattle. 
-                        I have a strong interest in Data Science, Software Development, Data Analytics, Embedded Systems, and Distributed Systems. 
+                        I have a strong interest in Full-Stack Development, Data Science, Data Engineering, Data Analytics, and Distributed Architecture. 
                         I am fluent in English, Hindi, and Marwari. During my free time, I enjoy playing chess, guitar, video games, and squash. 
                         Things I love:
                     </p>
@@ -23,11 +23,6 @@ export default function Bio() {
                     </div>
                 </div>
                 <div id = "bio-pic">
-                    {/* <img
-                        src= {require("../docs/profile_pic.jpg")}
-                        id="profile-pic"
-                        alt="Profile Pic"
-                    /> */}
                 </div>
             </div>
             

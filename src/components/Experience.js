@@ -7,14 +7,14 @@ import {Modal, ModalHeader, ModalBody} from "reactstrap";
 
 const companyDesc = {
     "Perasia Technologies LLC": {
-        "startDate": "April 2023",
-        "endDate": "September 2023",
+        "startDate": "April 4, 2023",
+        "endDate": "August 25, 2023",
         "location": "Okemos, MI, USA (Remote)",
         "desc": "During my time at Perasia as a Embedded Software Design Intern, I worked on two main projects for the company. Over spring quarter I worked part-time to learn about ST Microcontrollers and help develop software around Atonomous, Advanced Driver Assistance Systems. During Summer, I worked full-time on the Arrythmia Project. Using ECG Data from the MIT-BIH Arrythmia database as my data, I denoise the signals using various filters, perform heart rate variability analysis, and trained a convoluted neural network model for the classification of different beat types. Following that, I created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer. I also worked with the firmware engineers to create IoT rules to denoise the ECG data received from the embedded system using AWS Kinesis Data Firehose and finally storing the data in the S3 bucket."
     },
     "Siemens Technologies and Services Pvt. Ltd.": {
-        "startDate": "July 2022",
-        "endDate": "September 2022",
+        "startDate": "July 25, 2022",
+        "endDate": "September 30, 2022",
         "location": "Bengaluru, KA, India (Hybrid)",
         "desc": "During my time at Siemens as a Cybersecurity Research Intern, I worked with a small team to gather information on exploits through firmware updates and figuring out which package and executable files were more susceptible to attacks. The final deliverable was used to improve security features on the SIMATIC controllers. Through this experience, I got to use the Siemens Intranet, winCC software, and research papers to understand Operational Technologies better."
     },

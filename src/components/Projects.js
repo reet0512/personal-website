@@ -50,8 +50,8 @@ export default function Projects() {
                 <ProjectBlock projName={"Garbage Classifier"}/>
                 <ProjectBlock projName={"Sudoku Universe"}/>
                 <ProjectBlock projName={"Racial Justice"}/>
-                <ProjectBlock projName={"Flight Reservation Application (CSE 344 - link to spec)"}/>
                 <ProjectBlock projName={"Sharded Linearizable KV Store (CSE 452 - link to spec)"}/>
+                <ProjectBlock projName={"Flight Reservation Application (CSE 344 - link to spec)"}/>
             </div>
         </section>
     )
