@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c71f746.css",
-    "main.js": "/static/js/main.ec7861e0.js",
+    "main.js": "/static/js/main.1929c18a.js",
     "static/media/spaceapps_pic.jpg": "/static/media/spaceapps_pic.bc27ac5ebb708dcbe492.jpg",
     "static/media/sudoku_universe.jpg": "/static/media/sudoku_universe.6a528514c0e6dd51a8f3.jpg",
     "static/media/guitar.jpg": "/static/media/guitar.f895cbb845f9a58740e2.jpg",
@@ -10,7 +10,7 @@
     "static/media/garbage_classifier.jpg": "/static/media/garbage_classifier.cbb4568f2785f448691d.jpg",
     "static/media/racial_justice.jpg": "/static/media/racial_justice.0266dc93051d3d539dab.jpg",
     "static/media/kv_store.jpg": "/static/media/kv_store.03019e103ab1ed9ffece.jpg",
-    "static/media/Reet_Kothari_Resume.pdf": "/static/media/Reet_Kothari_Resume.306f7d58fa5a185c8c2f.pdf",
+    "static/media/Reet_Kothari_Resume.pdf": "/static/media/Reet_Kothari_Resume.8955024b9d6d9b46159b.pdf",
     "static/media/siemens_pic.jpg": "/static/media/siemens_pic.88ae221099ee125d9caa.jpg",
     "static/media/code_racer.jpg": "/static/media/code_racer.22c97893164152906fb2.jpg",
     "static/media/uw_logo.png": "/static/media/uw_logo.ca930d8189937ac66f80.png",
@@ -20,10 +20,10 @@
     "static/media/siemens_logo.png": "/static/media/siemens_logo.b544a22750cca9527edd.png",
     "index.html": "/index.html",
     "main.6c71f746.css.map": "/static/css/main.6c71f746.css.map",
-    "main.ec7861e0.js.map": "/static/js/main.ec7861e0.js.map"
+    "main.1929c18a.js.map": "/static/js/main.1929c18a.js.map"
   },
   "entrypoints": [
     "static/css/main.6c71f746.css",
-    "static/js/main.ec7861e0.js"
+    "static/js/main.1929c18a.js"
   ]
 }
