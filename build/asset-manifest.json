@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c71f746.css",
-    "main.js": "/static/js/main.1929c18a.js",
+    "main.css": "/static/css/main.83d84bd6.css",
+    "main.js": "/static/js/main.2003fbc3.js",
     "static/media/spaceapps_pic.jpg": "/static/media/spaceapps_pic.bc27ac5ebb708dcbe492.jpg",
     "static/media/sudoku_universe.jpg": "/static/media/sudoku_universe.6a528514c0e6dd51a8f3.jpg",
     "static/media/guitar.jpg": "/static/media/guitar.f895cbb845f9a58740e2.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.8ac46805b6fc880bbc9c.jpg",
     "static/media/background.jpg": "/static/media/background.ab4f9218bb09501d2471.jpg",
     "static/media/garbage_classifier.jpg": "/static/media/garbage_classifier.cbb4568f2785f448691d.jpg",
+    "static/media/Reet_Kothari_CV.pdf": "/static/media/Reet_Kothari_CV.23087c00efca3571ba63.pdf",
     "static/media/racial_justice.jpg": "/static/media/racial_justice.0266dc93051d3d539dab.jpg",
     "static/media/kv_store.jpg": "/static/media/kv_store.03019e103ab1ed9ffece.jpg",
     "static/media/Reet_Kothari_Resume.pdf": "/static/media/Reet_Kothari_Resume.8955024b9d6d9b46159b.pdf",
     "static/media/siemens_pic.jpg": "/static/media/siemens_pic.88ae221099ee125d9caa.jpg",
     "static/media/code_racer.jpg": "/static/media/code_racer.22c97893164152906fb2.jpg",
     "static/media/uw_logo.png": "/static/media/uw_logo.ca930d8189937ac66f80.png",
+    "static/media/develop_logo.png": "/static/media/develop_logo.f5ef5550f384ab96ae0f.png",
+    "static/media/intoxication_model.png": "/static/media/intoxication_model.67ba76f3cbfc83fce679.png",
     "static/media/flight_application.jpg": "/static/media/flight_application.912ab083699dbd4b6b5d.jpg",
     "static/media/perasia_logo.png": "/static/media/perasia_logo.4645e5bb3abd6938ede6.png",
+    "static/media/ipo_ss.png": "/static/media/ipo_ss.9d9fb264a77056f2c2f0.png",
     "static/media/dreamscope_pic.jpg": "/static/media/dreamscope_pic.2f0adea8140cb6e05bd9.jpg",
     "static/media/siemens_logo.png": "/static/media/siemens_logo.b544a22750cca9527edd.png",
     "index.html": "/index.html",
-    "main.6c71f746.css.map": "/static/css/main.6c71f746.css.map",
-    "main.1929c18a.js.map": "/static/js/main.1929c18a.js.map"
+    "main.83d84bd6.css.map": "/static/css/main.83d84bd6.css.map",
+    "main.2003fbc3.js.map": "/static/js/main.2003fbc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c71f746.css",
-    "static/js/main.1929c18a.js"
+    "static/css/main.83d84bd6.css",
+    "static/js/main.2003fbc3.js"
   ]
 }

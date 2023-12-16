@@ -1,4 +1,5 @@
 import Resume from "../docs/Reet_Kothari_Resume.pdf"
+import CV from "../docs/Reet_Kothari_CV.pdf"
 import "./styles/navigation_bar.css"
 import {Link} from "react-scroll"
 
@@ -30,13 +31,13 @@ export default function Navigation_Bar() {
                                     PROJECTS
                                 </Link>
                             </li>
-                            <li className="nav-item nav-link">
+                            {/* <li className="nav-item nav-link">
                                 <Link className="navbar-links" activeClass="active" spy to="gallery-section">
                                     GALLERY
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item nav-link">
-                                <a className="navbar-links" href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a>
+                                <a className="navbar-links" href={CV} target="_blank" rel="noopener noreferrer">CV</a>
                             </li>
                             <li className="nav-item nav-link">
                                 <a className="navbar-links" href="https://www.linkedin.com/in/reet-yk/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin fa-lg"></i></a>

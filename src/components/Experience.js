@@ -10,19 +10,31 @@ const companyDesc = {
         "startDate": "April 4, 2023",
         "endDate": "August 25, 2023",
         "location": "Okemos, MI, USA (Remote)",
-        "desc": "During my time at Perasia as a Embedded Software Design Intern, I worked on two main projects for the company. Over spring quarter I worked part-time to learn about ST Microcontrollers and help develop software around Atonomous, Advanced Driver Assistance Systems. During Summer, I worked full-time on the Arrythmia Project. Using ECG Data from the MIT-BIH Arrythmia database as my data, I denoise the signals using various filters, perform heart rate variability analysis, and trained a convoluted neural network model for the classification of different beat types. Following that, I created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer. I also worked with the firmware engineers to create IoT rules to denoise the ECG data received from the embedded system using AWS Kinesis Data Firehose and finally storing the data in the S3 bucket."
+        "desc": "During my time at Perasia as a Embedded Software Design Intern, I worked on two main projects for the company. Over spring quarter I worked part-time to learn about ST Microcontrollers and help develop software around Atonomous, Advanced Driver Assistance Systems. During Summer, I spearheaded the Arrythmia Classifier Project. Using ECG Data from the MIT-BIH Arrythmia database as my data, I denoised the signals using a bandpass filter and wavelet transform, performed heart rate variability analysis using derivate, squared, and moving integral filters, and trained an artificial neural network model for the classification of different beat types. Following that, I worked on the backend to setup an AWS IoT instance to accept MQTT messages, and created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer."
     },
     "Siemens Technologies and Services Pvt. Ltd.": {
         "startDate": "July 25, 2022",
         "endDate": "September 30, 2022",
         "location": "Bengaluru, KA, India (Hybrid)",
-        "desc": "During my time at Siemens as a Cybersecurity Research Intern, I worked with a small team to gather information on exploits through firmware updates and figuring out which package and executable files were more susceptible to attacks. The final deliverable was used to improve security features on the SIMATIC controllers. Through this experience, I got to use the Siemens Intranet, winCC software, and research papers to understand Operational Technologies better."
+        "desc": "During my time at Siemens as a Cybersecurity Research Intern, I worked with a small team to gather information on exploits through firmware updates and figured out which package and executable files were more susceptible to attacks. I scoured the Siemens Intranet, read multiple relevant research papers, and developed a Security Mindset. The final deliverable was used to improve security features on the SIMATIC controllers."
+    },
+    "Develop For Good": {
+        "startDate": "October 30, 2023",
+        "endDate": "February 24, 2024",
+        "location": "Remote",
+        "desc": "Under Develop For Good, I am working as a Data Engineer Volunteer at the non-profit XtraMath. I am creating ETL pipelines using AWS Glue (leveraging PySpark) to help query pivotal strategic data for the company. I am also building a new data warehouse on AWS Redshift that can regularly get updates from DynamoDB and enable better reporting for teachers to estimate their students' progress."
+    },
+    "Husky Satellite Lab": {
+        "startDate": "Autumn 2023",
+        "endDate": "Present",
+        "location": "Seattle, WA, USA (In-Person)",
+        "desc": "As a Software Engineer at Husky Satellite Labs, I am working on the PHAT-3 team (Platform for High-Altitude Testing). I am building a datalink system that supports packaging, encoding, and decoding data to the high altitude test satellite and also ideating a protocol for satellite movement to support a mockup star tracking camera."
     },
     "University of Washington": {
         "startDate": "Autumn 2021",
         "endDate": "Winter 2023",
         "location": "Seattle, WA, USA (In-Person)",
-        "desc": "During my time as a student in the University of Washington, I held 3 roles as a student worker and volunteer. As a volunteer, I was a FIG leaader in Au '22 with a class size of about 24 students. A FIG leader holds weekly seminars to help freshmen navigate their first-year at college so that they can find their path to success during their four years. As a student worker, I worked as a dining student assistant for Housing and Food Services (HFS) in Au '21 and a classroom technician for Academic Technologies in Wi '23."
+        "desc": "During my time as a student in the University of Washington, I held 3 roles as a student worker and volunteer. As a volunteer, I was a FIG leaader in Au '22 with a class size of about 24 students. A FIG leader holds weekly seminars to help freshmen navigate through their first-year at college so that they can find their path to success during their four years. As a student worker, I worked as a dining student assistant for Housing and Food Services (HFS) in Au '21 and a classroom technician for Academic Technologies in Wi '23."
     }
 }
 
@@ -60,8 +72,10 @@ export default function Experience() {
         <section id="experience-section">
             <h2>Experiences</h2>
             <div id="experiences">
+                <ExperienceBlock companyName={"Develop For Good"}/>
                 <ExperienceBlock companyName={"Perasia Technologies LLC"}/>
                 <ExperienceBlock companyName={"Siemens Technologies and Services Pvt. Ltd."}/>
+                <ExperienceBlock companyName={"Husky Satellite Lab"}/>
                 <ExperienceBlock companyName={"University of Washington"}/>
             </div>
         </section>

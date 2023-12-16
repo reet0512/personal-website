@@ -24,14 +24,14 @@
     cursor: pointer;
     width: 30vw;
     height: 15vh;
-    background-color:transparent;
-    border-radius: 2%;
+    background-color:white;
+    border-radius: 10px;
     border: none;
     margin: 5vh 5vw;
 }
 
 .experience-button:hover {
-    background-color: rgb(225, 225, 225);
+    background-color: rgba(225, 225, 225, 0.527);
 }
 
 #Perasia {
@@ -50,6 +50,20 @@
 
 #University {
     background-image: url("../../docs/uw_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Husky {
+    background-image: url("../../docs/hsl_logo.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Develop {
+    background-image: url("../../docs/develop_logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

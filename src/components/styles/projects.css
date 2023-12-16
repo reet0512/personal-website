@@ -40,6 +40,11 @@
     border: none;
 }
 
+#IPO {
+    background-image: url("../../docs/ipo_ss.png");
+    background-size: cover;
+}
+
 #Code {
     background-image: url("../../docs/code_racer.jpg");
     background-size: cover;
@@ -54,6 +59,11 @@
 
 #Sudoku {
     background-image: url("../../docs/sudoku_universe.jpg");
+    background-size: cover;
+}
+
+#Intoxication {
+    background-image: url("../../docs/intoxication_model.png");
     background-size: cover;
 }
 
