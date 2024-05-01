@@ -10,7 +10,7 @@ const companyDesc = {
         "startDate": "April 4, 2023",
         "endDate": "August 25, 2023",
         "location": "Okemos, MI, USA (Remote)",
-        "desc": "During my time at Perasia as a Embedded Software Design Intern, I worked on two main projects for the company. Over spring quarter I worked part-time to learn about ST Microcontrollers and help develop software around Atonomous, Advanced Driver Assistance Systems. During Summer, I spearheaded the Arrythmia Classifier Project. Using ECG Data from the MIT-BIH Arrythmia database as my data, I denoised the signals using a bandpass filter and wavelet transform, performed heart rate variability analysis using derivate, squared, and moving integral filters, and trained an artificial neural network model for the classification of different beat types. Following that, I worked on the backend to setup an AWS IoT instance to accept MQTT messages, and created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer."
+        "desc": "During my time at Perasia as a Embedded Software Design Intern, I spearheaded the Arrhythmia ECG Classifier Project. Using ECG Data from the MIT-BIH dataset, I denoised the pure time-domain signals using a bandpass filter and wavelet transform, performed heart rate variability analysis using derivate, squared, and moving integral filters, and trained an deep convoluted neural network model for the classification of different beat types. Following that, I worked on the backend to setup an AWS IoT instance to accept MQTT messages, and created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer."
     },
     "Siemens Technologies and Services Pvt. Ltd.": {
         "startDate": "July 25, 2022",
@@ -22,13 +22,13 @@ const companyDesc = {
         "startDate": "October 30, 2023",
         "endDate": "February 24, 2024",
         "location": "Remote",
-        "desc": "Under Develop For Good, I am working as a Data Engineer Volunteer at the non-profit XtraMath. I am creating ETL pipelines using AWS Glue (leveraging PySpark) to help query pivotal strategic data for the company. I am also building a new data warehouse on AWS Redshift that can regularly get updates from DynamoDB and enable better reporting for teachers to estimate their students' progress."
+        "desc": "Under Develop For Good, I worked as a Data Engineer Volunteer at the non-profit XtraMath. I created ETL pipelines using AWS Glue (leveraging PySpark) to normalize the data schema, expediting access to pivotal strategic data for the company. I also helped build a new data warehouse on AWS Redshift that can regularly get updates from DynamoDB and enable better reporting for teachers to estimate their students' progress."
     },
     "Husky Satellite Lab": {
         "startDate": "Autumn 2023",
         "endDate": "Present",
         "location": "Seattle, WA, USA (In-Person)",
-        "desc": "As a Software Engineer at Husky Satellite Labs, I am working on the PHAT-3 team (Platform for High-Altitude Testing). I am building a datalink system that supports packaging, encoding, and decoding data to the high altitude test satellite and also ideating a protocol for satellite movement to support a mockup star tracking camera."
+        "desc": "As a Software Engineer at Husky Satellite Labs, I worked on the PHAT-3 team (Platform for High-Altitude Testing). I worked on a datalink system that supports packaging, encoding, and decoding data to the high altitude test satellite, and also ideated a protocol for satellite movement to support a mockup star tracking camera."
     },
     "University of Washington": {
         "startDate": "Autumn 2021",
