@@ -16,21 +16,21 @@ import SiemensPic from "../docs/siemens_pic.jpg";
 
 const items = [
     {
-      src: SiemensPic,
-      altText: "Siemens Team",
-      caption: '',
-      key: 1
-    },
-    {
       src: SpaceAppsPic,
       altText: 'NASA Space Apps Hackathon October \'22',
       caption: 'Best Use of Data Award',
+      key: 1
+    },
+    {
+      src: SiemensPic,
+      altText: "Siemens Team",
+      caption: 'Cybersecurity Researcher',
       key: 2
     },
     {
       src: GuitarPic,
       altText: 'My Current Guitar',
-      caption: '',
+      caption: 'ESP LTD EC-256FM',
       key: 3
     },
     {

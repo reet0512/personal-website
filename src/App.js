@@ -5,6 +5,7 @@ import Bio from "./components/Bio.js";
 import Projects from "./components/Projects.js";
 import Experience from "./components/Experience.js";
 import Gallery from "./components/Gallery.js";
+import News from "./components/News.js"
 
 export default function App() {
     return(
@@ -17,7 +18,8 @@ export default function App() {
                 <Bio />
                 <Experience />
                 <Projects />
-                {/* <Gallery /> */}
+                <Gallery />
+                <News />
             </main>
             <footer>
                 <Footer />
