@@ -18,8 +18,8 @@ export default function App() {
                 <Bio />
                 <Experience />
                 <Projects />
-                <Gallery />
-                <News />
+                {/* <Gallery />
+                <News /> */}
             </main>
             <footer>
                 <Footer />

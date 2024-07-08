@@ -31,7 +31,7 @@ export default function Navigation_Bar() {
                                     PROJECTS
                                 </Link>
                             </li>
-                            <li className="nav-item nav-link">
+                            {/* <li className="nav-item nav-link">
                                 <Link className="navbar-links" activeClass="active" spy to="gallery-section">
                                     GALLERY
                                 </Link>
@@ -40,7 +40,7 @@ export default function Navigation_Bar() {
                                 <Link className="navbar-links" activeClass="active" spy to="news-section">
                                     NEWS
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item nav-link">
                                 <a className="navbar-links" href={Resume} target="_blank" rel="noopener noreferrer">RESUME</a>
                             </li>

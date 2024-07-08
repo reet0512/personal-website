@@ -6,16 +6,22 @@ import {Modal, ModalHeader, ModalBody} from "reactstrap";
 
 
 const companyDesc = {
+    "Dozee": {
+        "startDate": "April 1, 2024",
+        "endDate": "August 26, 2024",
+        "location": "Bangalore, KA, India (In-person)",
+        "desc": "During my time at Dozee as a Data Scientist, I developed an algorithm to annotate apnea events from ballistocardiogram data and used metrics like F1, precision, and Cohen's Kappa to evaluatethe it. In the process, I also implemented an internal tool to syncronize the JJ and RR peaks so that the lag between the BCG and ECG signals can be rectified to make working with new data easier. This automated tons of manual labor and sped up the development process by atleast a week."
+    },
     "Perasia Technologies LLC": {
         "startDate": "April 4, 2023",
         "endDate": "August 25, 2023",
         "location": "Okemos, MI, USA (Remote)",
-        "desc": "During my time at Perasia as a Embedded Software Design Intern, I spearheaded the Arrhythmia ECG Classifier Project. Using ECG Data from the MIT-BIH dataset, I denoised the pure time-domain signals using a bandpass filter and wavelet transform, performed heart rate variability analysis using derivate, squared, and moving integral filters, and trained an deep convoluted neural network model for the classification of different beat types. Following that, I worked on the backend to setup an AWS IoT instance to accept MQTT messages, and created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer."
+        "desc": "During my time at Perasia as a Embedded Software Intern, I spearheaded the Arrhythmia ECG Classifier Project. Using ECG Data from the MIT-BIH dataset, I denoised the pure time-domain signals using a bandpass filter and wavelet transform, performed heart rate variability analysis using derivate, squared, and moving integral filters, and trained an deep convoluted neural network model for the classification of different beat types. Following that, I worked on the backend to setup an AWS IoT instance to accept MQTT messages, and created a FastAPI to query data from the AWS S3 bucket and DynamoDb to send to the FrontEnd Developer."
     },
     "Siemens Technologies and Services Pvt. Ltd.": {
         "startDate": "July 25, 2022",
         "endDate": "September 30, 2022",
-        "location": "Bengaluru, KA, India (Hybrid)",
+        "location": "Bangalore, KA, India (Hybrid)",
         "desc": "During my time at Siemens as a Cybersecurity Research Intern, I worked with a small team to gather information on exploits through firmware updates and figured out which package and executable files were more susceptible to attacks. I scoured the Siemens Intranet, read multiple relevant research papers, and developed a Security Mindset. The final deliverable was used to improve security features on the SIMATIC controllers."
     },
     "Develop For Good": {
@@ -72,6 +78,7 @@ export default function Experience() {
         <section id="experience-section">
             <h2>Experiences</h2>
             <div id="experiences">
+                <ExperienceBlock companyName={"Dozee"}/>
                 <ExperienceBlock companyName={"Develop For Good"}/>
                 <ExperienceBlock companyName={"Perasia Technologies LLC"}/>
                 <ExperienceBlock companyName={"Siemens Technologies and Services Pvt. Ltd."}/>

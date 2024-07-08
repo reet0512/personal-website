@@ -80,6 +80,14 @@
     background-origin: content-box;
 }
 
+#Dozee {
+    background-image: url("../../docs/dozee_logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-origin: content-box; */
+}
+
 .modal-header h3{
     font-weight: bolder;
 }
