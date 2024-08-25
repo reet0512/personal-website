@@ -7,9 +7,9 @@ export default function Bio() {
             <div id="bio-content">
                 <div id = "bio-para">
                     <p>
-                        Hello! I'm Reet and I am an international student from India. I am currently pursuing a Masters degree in Computer Science at Dartmouth College. 
+                        Hello! I'm Reet Kothari and I'm originally from Bangalore, India. I am currently pursuing a Masters degree in Computer Science at Dartmouth College. 
                         I have a strong interest in Data Science, Full-Stack Development, Data Analytics, and Distributed Architecture. 
-                        I am fluent in English, Hindi, and Marwari. During my free time, I enjoy playing Squash, Chess, Video Games, and Guitar. 
+                        I am fluent in English, Hindi, and Marwari. During my free time, I enjoy cooking, playing Squash, Chess, Video Games, and Guitar. 
                         Things I love:
                     </p>
                     <div id="icon-info">

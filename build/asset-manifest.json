@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aca6a667.css",
-    "main.js": "/static/js/main.973859a1.js",
+    "main.css": "/static/css/main.659caf27.css",
+    "main.js": "/static/js/main.c6d311fc.js",
     "static/media/spaceapps_pic.jpg": "/static/media/spaceapps_pic.bc27ac5ebb708dcbe492.jpg",
     "static/media/sudoku_universe.jpg": "/static/media/sudoku_universe.6a528514c0e6dd51a8f3.jpg",
     "static/media/guitar.jpg": "/static/media/guitar.f895cbb845f9a58740e2.jpg",
-    "static/media/profile_pic.jpg": "/static/media/profile_pic.8ac46805b6fc880bbc9c.jpg",
     "static/media/background.jpg": "/static/media/background.ab4f9218bb09501d2471.jpg",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.69fd6f2e16a7d029e742.jpg",
     "static/media/garbage_classifier.jpg": "/static/media/garbage_classifier.cbb4568f2785f448691d.jpg",
     "static/media/racial_justice.jpg": "/static/media/racial_justice.0266dc93051d3d539dab.jpg",
     "static/media/kv_store.jpg": "/static/media/kv_store.03019e103ab1ed9ffece.jpg",
-    "static/media/Reet_Kothari_Resume.pdf": "/static/media/Reet_Kothari_Resume.46984d0272c7fb7d4e51.pdf",
+    "static/media/Reet_Kothari_Resume.pdf": "/static/media/Reet_Kothari_Resume.23556cd371b0470aa42e.pdf",
     "static/media/siemens_pic.jpg": "/static/media/siemens_pic.88ae221099ee125d9caa.jpg",
     "static/media/code_racer.jpg": "/static/media/code_racer.22c97893164152906fb2.jpg",
     "static/media/uw_logo.png": "/static/media/uw_logo.ca930d8189937ac66f80.png",
@@ -22,11 +22,11 @@
     "static/media/dreamscope_pic.jpg": "/static/media/dreamscope_pic.2f0adea8140cb6e05bd9.jpg",
     "static/media/siemens_logo.png": "/static/media/siemens_logo.b544a22750cca9527edd.png",
     "index.html": "/index.html",
-    "main.aca6a667.css.map": "/static/css/main.aca6a667.css.map",
-    "main.973859a1.js.map": "/static/js/main.973859a1.js.map"
+    "main.659caf27.css.map": "/static/css/main.659caf27.css.map",
+    "main.c6d311fc.js.map": "/static/js/main.c6d311fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.aca6a667.css",
-    "static/js/main.973859a1.js"
+    "static/css/main.659caf27.css",
+    "static/js/main.c6d311fc.js"
   ]
 }
