@@ -88,6 +88,14 @@
     /* background-origin: content-box; */
 }
 
+#Dartmouth {
+    background-image: url("../../docs/Dartmouth-Symbol.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-origin: content-box; */
+}
+
 .modal-header h3{
     font-weight: bolder;
 }
